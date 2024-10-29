@@ -6,6 +6,9 @@ public class User {
     private String name;
     private int age;
 
+    public User() {
+    }
+
     public User(int aadharCardNo, String name, int age) {
         this.aadharCardNo = aadharCardNo;
         this.name = name;
